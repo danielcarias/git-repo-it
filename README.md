@@ -63,4 +63,16 @@ ls -la
 git init
 ```
 
-git init && npm init -y && touch index.html && mkdir css && mkdir js
+### Paso del Working Directory (WD) al Index (staged)
+**IMPORTANTE:** Cuidado, es case sensitive
+
+```sh
+git add <nombreArchivo>
+```
+
+### Paso del WD al Index mas de un archivo
+```sh
+git add .
+```
+
+[//]: # (git init && npm init -y && touch index.html && mkdir css && mkdir js)
