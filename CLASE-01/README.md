@@ -16,11 +16,13 @@ git --version
 #### Configuro el usuario
 
 ```sh
+git config --global user.name "Daniel"
 git config user.name "Daniel"
 ```
 #### Configuro el mail
 
 ```sh
+git config --global user.email "jdcarias01@gmail.com"
 git config user.email "jdcarias01@gmail.com"
 ```
 
@@ -104,10 +106,11 @@ git log --oneline
 ### PASOS para subir mi repo local al remoto
 
 1. git init
-2. git add README.md
-3. git commit -m "first commit"
-4. git remote add origin https://github.com/<tuNombreUsuario>/<tuRepo>
-5. git push -u origin master
+2. git status
+3. git add README.md
+4. git commit -m "first commit"
+5. git remote add origin https://github.com/<tuNombreUsuario>/<tuRepo>
+6. git push -u origin master
 
 
 [//]: # (git init && npm init -y && touch index.html && mkdir css && mkdir js)
