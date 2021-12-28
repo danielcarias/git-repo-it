@@ -111,6 +111,7 @@ git log --oneline
 4. git commit -m "first commit"
 5. git remote add origin https://github.com/<tuNombreUsuario>/<tuRepo>
 6. git push -u origin master
+Tomar en cuenta que master varia dependiendo que palabra se selecciono en la configuracion inicial (usualmente la otra opcion es "main")
 
 
 [//]: # (git init && npm init -y && touch index.html && mkdir css && mkdir js)
