@@ -98,7 +98,7 @@ git log
 ### 
 
 ```sh
-git log --online
+git log --oneline
 ```
 
 ### PASOS para subir mi repo local al remoto
