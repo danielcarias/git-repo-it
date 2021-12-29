@@ -90,3 +90,33 @@ git status --short
 ```
 
 ### RAMAS (BRANCHES)
+
+### Para listar ramas
+```sh
+git branch
+```
+### Para crear una rama
+```sh
+git branch <nombre-rama>
+```
+
+### Para cambiar de rama
+```sh
+git switch <nombre-rama>
+```
+
+### Para borrar una rama
+```sh
+git branch -d <nombre-rama>
+```
+
+### Para forzar el borrado de una rama que no haya sido unificada con otra.
+
+```sh
+git branch -D <nombre-rama>
+```
+
+### Para crear una nueva rama y moverme a ella
+```sh
+git checkout -b <nombre-rama>
+```
