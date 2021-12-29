@@ -61,3 +61,32 @@ git remote
 ```sh
 git remote -v
 ```
+
+### Agrego remoto a mi REPO
+```sh
+git remote add <nombreAlias> <url-repo>
+```
+
+### Renombra el alias de la URL del remoto
+```sh
+git remote rename <nombreAlias-antiguo> <nombre-nuevo>
+```
+
+### Borrar remoto
+```sh
+git remote rm <alias-del-remoto>
+```
+
+Ej:
+
+```sh
+git remote rm origin
+```
+
+### Forma corta de hacer un status y ver los cambios en WD (Working Directory)
+
+```sh
+git status --short
+```
+
+### RAMAS (BRANCHES)
