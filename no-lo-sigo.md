@@ -1,0 +1,1 @@
+Git no lo esta siguiendo. O sea esta untracked
