@@ -19,3 +19,12 @@ git branch <nombreRama>
 ```sh
 git switch <nombreRama>
 ```
+
+## Git Merge
+
+### Tipos de Merge
+
+Fast-Fodward (No hay ningun cambio que se solape con lo que esta en la otra rama)
+```
+git merge
+```
