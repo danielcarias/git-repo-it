@@ -35,3 +35,5 @@ Manual - Conflictos (Ocurre cuando hay modificaciones en las mismas lineas)
 * Tener en cuenta subir una rama al remoto
 * Ver Clone
 * Ver Fork
+
+# Esto es algo que esta en clase03 y va a generar conflicto
