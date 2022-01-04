@@ -42,4 +42,8 @@ git merge --abort
 * Ver Clone
 * Ver Fork
 
+<<<<<<< HEAD
 ### Agrego algo para juntar con clase03
+=======
+# Esto es algo que esta en clase03 y va a generar conflicto
+>>>>>>> clase03
