@@ -42,8 +42,22 @@ git merge --abort
 * Ver Clone
 * Ver Fork
 
-<<<<<<< HEAD
-### Agrego algo para juntar con clase03
-=======
-# Esto es algo que esta en clase03 y va a generar conflicto
->>>>>>> clase03
+## ALIAS
+
+## Como creo un alias?
+
+```sh
+git config alias.lg "log --oneline --decorate --all --graph"
+git config alias.l "log --oneline"
+git config alias.s "status --short"
+```
+
+### Para editar el archivo de configuracion de GIT
+
+```sh
+git config -e
+```
+
+```sh
+git config --unset alias.s
+```
