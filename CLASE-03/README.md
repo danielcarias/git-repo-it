@@ -24,18 +24,14 @@ git switch <nombreRama>
 
 ### Tipos de Merge
 
-<<<<<<< HEAD
-Fast-Forward (No hay ningun cambio que se solape con lo que esta en la otra rama)
-
-Agrego cosas que quiero tener en consideracion.
-
-* Tener en cuenta subir una rama al remoto
-* Ver Clone
-* Ver Fork
-=======
 Fast-forward - Uniones automaticas (No hay ningun cambio que se solape con lo que esta en la otra rama)
 
 Recursiva - Uniones automaticas (No hay colisiones de cambios)
 
 Manual - Conflictos (Ocurre cuando hay modificaciones en las mismas lineas)
->>>>>>> master
+
+### TAREAS: Agrego cosas que quiero tomar en consideracion
+
+* Tener en cuenta subir una rama al remoto
+* Ver Clone
+* Ver Fork
