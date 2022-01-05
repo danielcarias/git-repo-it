@@ -20,6 +20,12 @@ git branch <nombreRama>
 git switch <nombreRama>
 ```
 
+### Subir rama local al remoto
+
+```sh
+git push origin <nombreRama>
+```
+
 ## Git Merge
 
 ### Tipos de Merge
@@ -76,7 +82,7 @@ git clone https://github.com/facebook/react.git
 ### Lo clona en una carpeta en especifico
 
 ```sh
-git clone https://github.com/facebook/react.git ./nombreCarpeta
+git clone https://github.com/facebook/react.git ./<nombreCarpeta>
 ```
 
 # Fork
@@ -85,3 +91,16 @@ Me permite crear un repo en mi cuenta de cualquier proyecto de Github
 1. Vamos al repo que queremos hacer el fork. Presionamos el boton.
 2. Se crea el repo en mi cuenta.
 3. Puedo clonar ese repo y empezar a trabajar.
+
+# Para actualizar un Fork
+Necesito el remoto original del remoto del repo al cual le hice el fork
+
+## Agrego el remoto del repositorio original
+```sh
+git remote add upstream <urlRemotoOriginal>
+```
+
+## Me traigo los ultimos commits del repositorio original
+```sh
+git pull upstream <urlRemotoOriginal>
+```
