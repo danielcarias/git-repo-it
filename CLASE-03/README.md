@@ -58,6 +58,30 @@ git config alias.s "status --short"
 git config -e
 ```
 
+### Para eliminar un alias
+
 ```sh
 git config --unset alias.s
 ```
+
+# Git Clone
+Me permite clonar cualquier repositorio que exista en GitHub, GitLab, etc.
+
+### Lo clona en la carpeta con el nombre react
+
+```sh
+git clone https://github.com/facebook/react.git
+```
+
+### Lo clona en una carpeta en especifico
+
+```sh
+git clone https://github.com/facebook/react.git ./nombreCarpeta
+```
+
+# Fork
+Me permite crear un repo en mi cuenta de cualquier proyecto de Github
+
+1. Vamos al repo que queremos hacer el fork. Presionamos el boton.
+2. Se crea el repo en mi cuenta.
+3. Puedo clonar ese repo y empezar a trabajar.
